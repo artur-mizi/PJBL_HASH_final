@@ -127,17 +127,18 @@ public class Main {
         Registro[] vetor_quinhentos_mil = gerador_valores.gerarQuinhentosMil();
         long tempo_inicio;
 
-        // ##########################
-        // Hash Linear
-        // ##########################
 
+
+
+        
+        
         System.out.println("\nHash Linear\n");
         System.out.println("Iniciando insercao de cem mil valores nas tabelas de HashLinear");
 
 
 
-        long[] tempo_insercao_linear_100K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_linear_100K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_linear_100K = new long[3];
+        long[] colisoes_insercao_linear_100K = new long[3];
 
 
 
@@ -165,8 +166,8 @@ public class Main {
 
 
 
-        long[] tempo_insercao_linear_500K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_linear_500K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_linear_500K = new long[3];
+        long[] colisoes_insercao_linear_500K = new long[3];
 
 
 
@@ -194,8 +195,8 @@ public class Main {
 
 
 
-        long[] tempo_insercao_linear_10K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_linear_10K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_linear_10K = new long[3]; 
+        long[] colisoes_insercao_linear_10K = new long[3]; 
 
 
 
@@ -229,7 +230,7 @@ public class Main {
 
 
 
-        long[] tempo_busca_linear_100K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_linear_100K = new long[3]; 
 
 
 
@@ -251,7 +252,7 @@ public class Main {
 
 
 
-        long[] tempo_busca_linear_500K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_linear_500K = new long[3]; 
 
 
 
@@ -273,7 +274,7 @@ public class Main {
 
 
 
-        long[] tempo_busca_linear_10K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_linear_10K = new long[3]; 
 
 
 
@@ -299,9 +300,7 @@ public class Main {
 
 
 
-        // ##########################
-        // Hash Encadeado
-        // ##########################
+        
 
 
 
@@ -310,8 +309,8 @@ public class Main {
         
         
         
-        long[] tempo_insercao_encadeado_100K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_encadeado_100K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_encadeado_100K = new long[3]; 
+        long[] colisoes_insercao_encadeado_100K = new long[3]; 
 
 
 
@@ -337,8 +336,8 @@ public class Main {
         
         
         
-        long[] tempo_insercao_encadeado_500K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_encadeado_500K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_encadeado_500K = new long[3]; 
+        long[] colisoes_insercao_encadeado_500K = new long[3]; 
 
 
 
@@ -364,8 +363,8 @@ public class Main {
         
         
         
-        long[] tempo_insercao_encadeado_10K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_encadeado_10K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_encadeado_10K = new long[3]; 
+        long[] colisoes_insercao_encadeado_10K = new long[3]; 
 
 
 
@@ -399,7 +398,7 @@ public class Main {
 
 
         
-        long[] tempo_busca_encadeado_100K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_encadeado_100K = new long[3]; 
 
 
 
@@ -421,7 +420,7 @@ public class Main {
 
 
         
-        long[] tempo_busca_encadeado_500K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_encadeado_500K = new long[3]; 
 
 
 
@@ -443,7 +442,7 @@ public class Main {
 
 
         
-        long[] tempo_busca_encadeado_10K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_encadeado_10K = new long[3];
 
 
 
@@ -469,9 +468,8 @@ public class Main {
 
 
 
-        // ##########################
-        // Hash Double Chain
-        // ##########################
+
+        
 
 
 
@@ -480,8 +478,8 @@ public class Main {
         
         
         
-        long[] tempo_insercao_doublechained_100K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_doublechained_100K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_doublechained_100K = new long[3]; 
+        long[] colisoes_insercao_doublechained_100K = new long[3]; 
 
 
 
@@ -507,8 +505,8 @@ public class Main {
         
         
         
-        long[] tempo_insercao_doublechained_500K = new long[3]; // [mil, dezMil, cem_MIL]
-        long[] colisoes_insercao_doublechained_500K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_doublechained_500K = new long[3]; 
+        long[] colisoes_insercao_doublechained_500K = new long[3]; 
 
 
 
@@ -534,7 +532,7 @@ public class Main {
         
         
         
-        long[] tempo_insercao_doublechained_10K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_insercao_doublechained_10K = new long[3]; 
         long[] colisoes_insercao_doublechained_10K = new long[3];
 
 
@@ -569,7 +567,7 @@ public class Main {
 
 
         
-        long[] tempo_busca_doublechained_100K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_doublechained_100K = new long[3]; 
 
 
 
@@ -591,7 +589,7 @@ public class Main {
 
 
         
-        long[] tempo_busca_doublechained_500K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_doublechained_500K = new long[3];
 
 
 
@@ -613,7 +611,7 @@ public class Main {
 
 
         
-        long[] tempo_busca_doublechained_10K = new long[3]; // [mil, dezMil, cem_MIL]
+        long[] tempo_busca_doublechained_10K = new long[3];
 
 
 
@@ -899,3 +897,4 @@ public class Main {
 
     }
 }
+
