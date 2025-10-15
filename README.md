@@ -39,210 +39,210 @@ Usando System.nanoTime() para marcar o tempo antes e depois de cada busca, impri
 
 ## 6: Gráficos de performance de cada tabela e cada método:
 
-Gráficos criados usando ferramentas do pacote Office, a partir da saída do Main.
+Gráficos criados usando ferramentas do pacote Office, a partir da saída do Main, serão salvos na pasta gráficos do repositório.
 
 # Saída do main:
 
 Hash Linear
 
-Iniciando insercao de cem mil valores nas tabelas de HashLinear
-SUCESSO!
-Iniciando insercao de quinhentos mil valores nas tabelas de HashLinear
-SUCESSO!
-Iniciando insercao de dez mil valores nas tabelas de HashLinear
-SUCESSO!
-Iniciando busca de cem mil valores nas tabelas de HashLinear
-SUCESSO!
-Iniciando busca de quinhentos mil valores nas tabelas de HashLinear
-SUCESSO!
-Iniciando busca de dez mil valores nas tabelas de HashLinear
-SUCESSO!
+Iniciando insercao de cem mil valores nas tabelas de HashLinear  
+SUCESSO!  
+Iniciando insercao de quinhentos mil valores nas tabelas de HashLinear  
+SUCESSO!  
+Iniciando insercao de dez mil valores nas tabelas de HashLinear  
+SUCESSO!  
+Iniciando busca de cem mil valores nas tabelas de HashLinear  
+SUCESSO!  
+Iniciando busca de quinhentos mil valores nas tabelas de HashLinear  
+SUCESSO!  
+Iniciando busca de dez mil valores nas tabelas de HashLinear  
+SUCESSO!  
 
-Hash Encadeado
+Hash Encadeado  
 
-Iniciando insercao de cem mil valores nas tabelas de HashEncadeado
-SUCESSO!
-Iniciando insercao de quinhentos mil valores nas tabelas de HashEncadeado
-SUCESSO!
-Iniciando insercao de dez mil valores nas tabelas de HashEncadeado
-SUCESSO!
-Iniciando busca de cem mil valores nas tabelas de HashEncadeado
-SUCESSO!
-Iniciando busca de quinhentos mil de valores nas tabelas de HashEncadeado
-SUCESSO!
-Iniciando busca de dez mil valores nas tabelas de HashEncadeado
-SUCESSO!
+Iniciando insercao de cem mil valores nas tabelas de HashEncadeado  
+SUCESSO!  
+Iniciando insercao de quinhentos mil valores nas tabelas de HashEncadeado  
+SUCESSO!  
+Iniciando insercao de dez mil valores nas tabelas de HashEncadeado  
+SUCESSO!  
+Iniciando busca de cem mil valores nas tabelas de HashEncadeado  
+SUCESSO!  
+Iniciando busca de quinhentos mil de valores nas tabelas de HashEncadeado  
+SUCESSO!  
+Iniciando busca de dez mil valores nas tabelas de HashEncadeado  
+SUCESSO!  
 
 Hash Double Chain
 
-Iniciando insercao de cem mil valores nas tabelas de HashDoublbeChain
-SUCESSO!
-Iniciando insercao de quinhentos mil valores nas tabelas de DoubleChainedHash
-SUCESSO!
-Iniciando insercao de dez mil valores nas tabelas de DoubleChainedHash
-SUCESSO!
-Iniciando busca de cem mil valores nas tabelas de DoubleChainedHash
-SUCESSO!
-Iniciando busca de quinhentos mil valores nas tabelas de DoubleChainedHash
-SUCESSO!
-Iniciando busca de dez mil valores nas tabelas de DoubleChainedHash
-SUCESSO!
-Resultados finais:
+Iniciando insercao de cem mil valores nas tabelas de HashDoublbeChain  
+SUCESSO!  
+Iniciando insercao de quinhentos mil valores nas tabelas de DoubleChainedHash  
+SUCESSO!  
+Iniciando insercao de dez mil valores nas tabelas de DoubleChainedHash  
+SUCESSO!  
+Iniciando busca de cem mil valores nas tabelas de DoubleChainedHash  
+SUCESSO!  
+Iniciando busca de quinhentos mil valores nas tabelas de DoubleChainedHash  
+SUCESSO!  
+Iniciando busca de dez mil valores nas tabelas de DoubleChainedHash  
+SUCESSO!  
+Resultados finais:  
 
 Dados da inserção:
 
 ## Tempo de inserção em nanosegundos:
 
-Tempo de inserção linear com 10 mil valores:
-Tabela de tamanho mil: 19602500
-Tabela de tamanho dez mil: 21702000
-Tabela de tamanho cem mil: 14287200
+Tempo de inserção linear com 10 mil valores:  
+Tabela de tamanho mil: 19602500  
+Tabela de tamanho dez mil: 21702000  
+Tabela de tamanho cem mil: 14287200  
 
-Tempo de inserção linear com 100 mil valores:
-Tabela de tamanho mil: 4042031400
-Tabela de tamanho dez mil: 6183366700
-Tabela de tamanho cem mil: 2812965400
+Tempo de inserção linear com 100 mil valores:  
+Tabela de tamanho mil: 4042031400  
+Tabela de tamanho dez mil: 6183366700  
+Tabela de tamanho cem mil: 2812965400  
 
-Tempo de inserção linear com 500 mil de valores:
-Tabela de tamanho mil: 82328627000
-Tabela de tamanho dez mil: 159152176400
-Tabela de tamanho cem mil: 97608616400
-
-
-Tempos de inserção encadeado com 10 mil valores:
-Tabela de tamanho mil: 88300
-Tabela de tamanho dez mil: 70500
-Tabela de tamanho cem mil: 70800
-
-Tempos de inserção encadeado com 100 mil valores:
-Tabela de tamanho mil: 6517100
-Tabela de tamanho dez mil: 7960500
-Tabela de tamanho cem mil: 1366500
-
-Tempos de inserção encadeado com 500 mil de valores:
-Tabela de tamanho mil: 5267100
-Tabela de tamanho dez mil: 18110900
-Tabela de tamanho cem mil: 5906000
+Tempo de inserção linear com 500 mil de valores:  
+Tabela de tamanho mil: 82328627000  
+Tabela de tamanho dez mil: 159152176400  
+Tabela de tamanho cem mil: 97608616400  
 
 
-Tempo de inserção double chained com 10 mil valores:
-Tabela de tamanho mil: 127700
-Tabela de tamanho dez mil: 103800
-Tabela de tamanho cem mil: 101700
+Tempos de inserção encadeado com 10 mil valores:  
+Tabela de tamanho mil: 88300  
+Tabela de tamanho dez mil: 70500  
+Tabela de tamanho cem mil: 70800  
 
-Tempo de inserção double chained com 100 mil valores:
-Tabela de tamanho mil: 20508100
-Tabela de tamanho dez mil: 4518300
-Tabela de tamanho cem mil: 3610200
+Tempos de inserção encadeado com 100 mil valores:  
+Tabela de tamanho mil: 6517100  
+Tabela de tamanho dez mil: 7960500  
+Tabela de tamanho cem mil: 1366500  
 
-Tempo de inserção double chained com 500 mil de valores:
-Tabela de tamanho mil: 24088500
-Tabela de tamanho dez mil: 44835400
-Tabela de tamanho cem mil: 34010200
+Tempos de inserção encadeado com 500 mil de valores:  
+Tabela de tamanho mil: 5267100  
+Tabela de tamanho dez mil: 18110900  
+Tabela de tamanho cem mil: 5906000  
+
+
+Tempo de inserção double chained com 10 mil valores:  
+Tabela de tamanho mil: 127700  
+Tabela de tamanho dez mil: 103800  
+Tabela de tamanho cem mil: 101700  
+
+Tempo de inserção double chained com 100 mil valores:  
+Tabela de tamanho mil: 20508100  
+Tabela de tamanho dez mil: 4518300  
+Tabela de tamanho cem mil: 3610200  
+
+Tempo de inserção double chained com 500 mil de valores:  
+Tabela de tamanho mil: 24088500  
+Tabela de tamanho dez mil: 44835400  
+Tabela de tamanho cem mil: 34010200  
 
 
 Dados de colisões:
 
 ## Número de colisões em cada tabela
 
-Número de colisões na inserção linear com 10 mil valores:
-Tabela de tamanho mil: 38411779
-Tabela de tamanho dez mil: 38410841
-Tabela de tamanho cem mil: 38410841
+Número de colisões na inserção linear com 10 mil valores:  
+Tabela de tamanho mil: 38411779  
+Tabela de tamanho dez mil: 38410841  
+Tabela de tamanho cem mil: 38410841  
 
-Número de colisões na inserção linear com 100 mil valores:
-Tabela de tamanho mil: 4864623922
-Tabela de tamanho dez mil: 4864622895
-Tabela de tamanho cem mil: 4864622895
+Número de colisões na inserção linear com 100 mil valores:  
+Tabela de tamanho mil: 4864623922  
+Tabela de tamanho dez mil: 4864622895  
+Tabela de tamanho cem mil: 4864622895  
 
-Número de colisões na inserção linear com 500 mil de valores:
-Tabela de tamanho mil: 124296046416
-Tabela de tamanho dez mil: 124296045529
-Tabela de tamanho cem mil: 124296045529
-
-
-Número de colisões na inserção encadeada com 10 mil valores:
-Tabela de tamanho mil: 50183
-Tabela de tamanho dez mil: 28328
-Tabela de tamanho cem mil: 28328
-
-Número de colisões na inserção encadeada com 100 mil valores:
-Tabela de tamanho mil: 4999014
-Tabela de tamanho dez mil: 2834224
-Tabela de tamanho cem mil: 2834224
-
-Número de colisões na inserção encadeada com 500 mil de valores:
-Tabela de tamanho mil: 124995632
-Tabela de tamanho dez mil: 71153938
-Tabela de tamanho cem mil: 71153938
+Número de colisões na inserção linear com 500 mil de valores:  
+Tabela de tamanho mil: 124296046416  
+Tabela de tamanho dez mil: 124296045529  
+Tabela de tamanho cem mil: 124296045529  
 
 
-Número de colisões na inserção doublechained com 10 mil valores:
-Tabela de tamanho mil: 50827
-Tabela de tamanho dez mil: 48759
-Tabela de tamanho cem mil: 48759
+Número de colisões na inserção encadeada com 10 mil valores:  
+Tabela de tamanho mil: 50183  
+Tabela de tamanho dez mil: 28328  
+Tabela de tamanho cem mil: 28328  
 
-Número de colisões na inserção doublechained com 100 mil valores:
-Tabela de tamanho mil: 5404378
-Tabela de tamanho dez mil: 4664318
-Tabela de tamanho cem mil: 4594563
+Número de colisões na inserção encadeada com 100 mil valores:  
+Tabela de tamanho mil: 4999014  
+Tabela de tamanho dez mil: 2834224  
+Tabela de tamanho cem mil: 2834224  
 
-Número de colisões na inserção doublechained com 500 mil de valores:
-Tabela de tamanho mil: 120895488
-Tabela de tamanho dez mil: 33649162
-Tabela de tamanho cem mil: 25001601
+Número de colisões na inserção encadeada com 500 mil de valores:  
+Tabela de tamanho mil: 124995632  
+Tabela de tamanho dez mil: 71153938  
+Tabela de tamanho cem mil: 71153938  
+
+
+Número de colisões na inserção doublechained com 10 mil valores:  
+Tabela de tamanho mil: 50827  
+Tabela de tamanho dez mil: 48759  
+Tabela de tamanho cem mil: 48759  
+
+Número de colisões na inserção doublechained com 100 mil valores:  
+Tabela de tamanho mil: 5404378  
+Tabela de tamanho dez mil: 4664318  
+Tabela de tamanho cem mil: 4594563  
+  
+Número de colisões na inserção doublechained com 500 mil de valores:  
+Tabela de tamanho mil: 120895488  
+Tabela de tamanho dez mil: 33649162  
+Tabela de tamanho cem mil: 25001601  
 
 
 Dados de busca:
 
 ## Tempo de busca em nanosegundos:
 
-Tempo da busca linear com 10 mil valores:
-Tabela de tamanho mil: 33477900
-Tabela de tamanho dez mil: 45400800
-Tabela de tamanho cem mil: 42095300
+Tempo da busca linear com 10 mil valores:  
+Tabela de tamanho mil: 33477900  
+Tabela de tamanho dez mil: 45400800  
+Tabela de tamanho cem mil: 42095300  
 
-Tempo da busca linear com 100 mil valores:
-Tabela de tamanho mil: 1880827400
-Tabela de tamanho dez mil: 1832231000
-Tabela de tamanho cem mil: 1816945300
-
-Tempo da busca linear com 500 mil de valores:
-Tabela de tamanho mil: 69156750200
-Tabela de tamanho dez mil: 63254366600
-Tabela de tamanho cem mil: 111688559800
-
-
-Tempo da busca encadeada com 10 mil valores:
-Tabela de tamanho mil: 720100
-Tabela de tamanho dez mil: 557800
-Tabela de tamanho cem mil: 577400
-
-Tempo da busca encadeada com 100 mil valores:
-Tabela de tamanho mil: 17627700
-Tabela de tamanho dez mil: 13142100
-Tabela de tamanho cem mil: 10078900
-
-Tempo da busca encadeada com 500 mil de valores:
-Tabela de tamanho mil: 451434500
-Tabela de tamanho dez mil: 2739758300
-Tabela de tamanho cem mil: 2527321300
+Tempo da busca linear com 100 mil valores:  
+Tabela de tamanho mil: 1880827400  
+Tabela de tamanho dez mil: 1832231000  
+Tabela de tamanho cem mil: 1816945300  
+  
+Tempo da busca linear com 500 mil de valores:  
+Tabela de tamanho mil: 69156750200  
+Tabela de tamanho dez mil: 63254366600  
+Tabela de tamanho cem mil: 111688559800  
 
 
-Tempo da busca doublechained com 10 mil valores:
-Tabela de tamanho mil: 404800
-Tabela de tamanho dez mil: 333300
-Tabela de tamanho cem mil: 313400
+Tempo da busca encadeada com 10 mil valores:  
+Tabela de tamanho mil: 720100  
+Tabela de tamanho dez mil: 557800  
+Tabela de tamanho cem mil: 577400  
 
-Tempo da busca doublechained com 100 mil valores:
-Tabela de tamanho mil: 21771900
-Tabela de tamanho dez mil: 11632200
-Tabela de tamanho cem mil: 14330300
+Tempo da busca encadeada com 100 mil valores:  
+Tabela de tamanho mil: 17627700  
+Tabela de tamanho dez mil: 13142100  
+Tabela de tamanho cem mil: 10078900  
 
-Tempo da busca doublechained com 500 mil de valores:
-Tabela de tamanho mil: 499417200
-Tabela de tamanho dez mil: 1105547800
-Tabela de tamanho cem mil: 388879300
+Tempo da busca encadeada com 500 mil de valores:  
+Tabela de tamanho mil: 451434500  
+Tabela de tamanho dez mil: 2739758300  
+Tabela de tamanho cem mil: 2527321300  
+
+
+Tempo da busca doublechained com 10 mil valores:  
+Tabela de tamanho mil: 404800  
+Tabela de tamanho dez mil: 333300  
+Tabela de tamanho cem mil: 313400  
+
+Tempo da busca doublechained com 100 mil valores:  
+Tabela de tamanho mil: 21771900  
+Tabela de tamanho dez mil: 11632200  
+Tabela de tamanho cem mil: 14330300  
+
+Tempo da busca doublechained com 500 mil de valores:  
+Tabela de tamanho mil: 499417200  
+Tabela de tamanho dez mil: 1105547800  
+Tabela de tamanho cem mil: 388879300  
 
 ## Maiores listas encadeadas de cada Tabela:
 
@@ -340,43 +340,43 @@ Dados dos gaps:
 
 ## Maiores, Menores, e Médias de gaps nas tabelas:
 
-Gaps com 100 mil valores:
-Maior gap na tabela de tamanho mil: 155805
-Menor gap na tabela de tamanho mil: 1
-Media gap na tabela de tamanho mil: 6500.0
+Gaps com 100 mil valores:  
+Maior gap na tabela de tamanho mil: 155805  
+Menor gap na tabela de tamanho mil: 1  
+Media gap na tabela de tamanho mil: 6500.0  
+  
+Maior gap na tabela de tamanho dez mil: 59805  
+Menor gap na tabela de tamanho dez mil: 1  
+Media gap na tabela de tamanho dez mil: 2500.0  
 
-Maior gap na tabela de tamanho dez mil: 59805
-Menor gap na tabela de tamanho dez mil: 1
-Media gap na tabela de tamanho dez mil: 2500.0
-
-Maior gap na tabela de tamanho cem mil: 99805
-Menor gap na tabela de tamanho cem mil: 1
-Media gap na tabela de tamanho cem mil: 4166.0
-
-
-Gaps com 500 mil valores:
-Maior gap na tabela de tamanho mil: 523859
-Menor gap na tabela de tamanho mil: 1
-Media gap na tabela de tamanho mil: 47636.0
-
-Maior gap na tabela de tamanho dez mil: 779859
-Menor gap na tabela de tamanho dez mil: 1
-Media gap na tabela de tamanho dez mil: 70909.0
-
-Maior gap na tabela de tamanho cem mil: 299859
-Menor gap na tabela de tamanho cem mil: 1
-Media gap na tabela de tamanho cem mil: 27272.0
+Maior gap na tabela de tamanho cem mil: 99805  
+Menor gap na tabela de tamanho cem mil: 1  
+Media gap na tabela de tamanho cem mil: 4166.0  
 
 
-Gaps com 10 mil valores:
-Maior gap na tabela de tamanho mil: 5612
-Menor gap na tabela de tamanho mil: 1
-Media gap na tabela de tamanho mil: 117.0
+Gaps com 500 mil valores:  
+Maior gap na tabela de tamanho mil: 523859  
+Menor gap na tabela de tamanho mil: 1  
+Media gap na tabela de tamanho mil: 47636.0  
 
-Maior gap na tabela de tamanho dez mil: 9612
-Menor gap na tabela de tamanho dez mil: 1
-Media gap na tabela de tamanho dez mil: 196.0
+Maior gap na tabela de tamanho dez mil: 779859  
+Menor gap na tabela de tamanho dez mil: 1  
+Media gap na tabela de tamanho dez mil: 70909.0  
 
-Maior gap na tabela de tamanho cem mil: 89612
-Menor gap na tabela de tamanho cem mil: 1
-Media gap na tabela de tamanho cem mil: 1764.0
+Maior gap na tabela de tamanho cem mil: 299859  
+Menor gap na tabela de tamanho cem mil: 1  
+Media gap na tabela de tamanho cem mil: 27272.0  
+
+
+Gaps com 10 mil valores:  
+Maior gap na tabela de tamanho mil: 5612  
+Menor gap na tabela de tamanho mil: 1  
+Media gap na tabela de tamanho mil: 117.0  
+
+Maior gap na tabela de tamanho dez mil: 9612  
+Menor gap na tabela de tamanho dez mil: 1  
+Media gap na tabela de tamanho dez mil: 196.0  
+
+Maior gap na tabela de tamanho cem mil: 89612  
+Menor gap na tabela de tamanho cem mil: 1  
+Media gap na tabela de tamanho cem mil: 1764.0  
