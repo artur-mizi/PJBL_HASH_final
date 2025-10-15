@@ -27,11 +27,10 @@ public class HashLinear {
 
         while (ocupado[pos]) {
             pos = (pos + 1);
-            if (pos >= tamanho_tabela) pos = 0; // volta ao início
+            if (pos >= tamanho_tabela) pos = 0;
             colisoes++;
 
             if (colisoes >= tamanho_tabela) {
-                // tabela cheia -> faz rehash e reinsere
                 rehash();
                 return colisoes + inserirRegistro(registro);
             }
@@ -129,3 +128,4 @@ public class HashLinear {
     }
 
 }
+
