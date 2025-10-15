@@ -17,7 +17,6 @@ public class HashLinear {
     }
 
     public long inserirRegistro(Registro registro) {
-        // se fator de carga exceder 0.75, faz rehash
         if ((double) num_elementos / tamanho_tabela >= FATOR_CARGA_MAX) {
             rehash();
         }
@@ -128,4 +127,5 @@ public class HashLinear {
     }
 
 }
+
 
