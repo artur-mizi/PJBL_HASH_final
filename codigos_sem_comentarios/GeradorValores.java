@@ -4,18 +4,7 @@ public class GeradorValores {
 
     private final int min = 100000000;
     private final int max = 999999999;
-    /* 
-    >> Random.nextInt() SEMPRE COMEÇA EM 0 (INCLUSO) E VAI ATE O MAX (EXLUIDO)
 
-    >> Se quer incluir max precisa somar 1 ao intervalo
-
-    >> POR ISSO SOMAMOS 1 NO INTERVALO E POSTERIORMENTE, AO USAR NEXTINT(), SOMAMOS "MIN"
-    AO RESULTADO, ASSIM DESLOCAMOS VALOR ATE O INTERVALO QUE QUEREMOS (A PARTIR DE MIN ATE O MAX,
-    COM AMBOS INCLUIDOS).
-
-    >> EX - intervalo = (105 - 100 + 1) = 6 
-        >> Random.nextInt(6) + 100 gera valores entre 100 (0 + 100) e 105 (5 + 100)
-    */
     private final int intervalo = max - min + 1;
     private final Random gerador;
 
@@ -56,6 +45,7 @@ public class GeradorValores {
 
         return registros;
     }
+
 
 
 }
